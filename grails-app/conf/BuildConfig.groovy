@@ -31,11 +31,12 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        compile ":scaffolding:2.0.2"
-        runtime ":jquery:1.9.1"
+        compile ":scaffolding:2.1.1"
+        runtime ":jquery:1.11.1"
+        compile ":events-push:1.0.M7"
 //        runtime ":events-si:1.0.M7"
         //compile ":events-push:1.0.M3"
-        build ':release:3.0.1', ':rest-client-builder:1.0.3', {
+        build ':release:3.0.1', ':rest-client-builder:2.0.1', {
           export = false
         }
     }
